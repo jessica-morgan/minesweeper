@@ -10,6 +10,7 @@ cells: generateCells(3)
 //console.log(board.cells)
 //console.log(board.cells[5])
 
+
 function startGame () {
   // Don't remove this function call: it makes the game work!
   board.cells[1].isMine = true;
@@ -20,8 +21,10 @@ function startGame () {
     board.cells[i].surroundingMines = countSurroundingMines(board.cells[i])
   }
   document.addEventListener('click', checkForWin); // call check for win function on click
-  document.addEventListener('contextmenu', checkForWin); // call check for win function on right click 
+  document.addEventListener('contextmenu', checkForWin);
 }
+
+
 
 function generateCells (size) {
   var cells = []
@@ -83,3 +86,6 @@ function countSurroundingMines (cell) {
    } 
    return count;
 } 
+
+document.getElementById('button').addEventListener('click', startGame);
+ 

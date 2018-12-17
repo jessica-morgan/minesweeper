@@ -48,7 +48,7 @@ body {
 }
 
 div.mine, div.mine:hover {
-  background: no-repeat center/60% url("images/bomb.svg") purple;
+  background: no-repeat center/60% url("images/bomb.svg") rgb(228, 135, 228);
 }
 
 div.hidden {
@@ -61,4 +61,16 @@ div.hidden:hover {
 
 div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") deepskyblue;
+}
+.button {
+    background-color: rgb(188, 188, 194); 
+    border: none;
+    color: rgb(247, 123, 210);
+    padding: 3px 3px 3px 3px;
+    margin: 8px 8px 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
 }
