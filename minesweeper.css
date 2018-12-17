@@ -63,7 +63,7 @@ div.marked, div.marked:hover {
   background: no-repeat center/60% url("images/mark.svg") deepskyblue;
 }
 .button {
-    background-color: rgb(188, 188, 194); 
+    background-color: rgb(215, 215, 221); 
     border: none;
     color: rgb(247, 123, 210);
     padding: 3px 3px 3px 3px;

@@ -86,6 +86,3 @@ function countSurroundingMines (cell) {
    } 
    return count;
 } 
-
-document.getElementById('button').addEventListener('click', startGame);
- 
